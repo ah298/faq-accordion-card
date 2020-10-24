@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+
+<body>
+  <section>
+    <div class="showcase hide-for-mobile">
+      <div id="woman"><img src="images/illustration-woman-online-desktop.svg" ></div>
+      <div id="shadow"><img src="images/bg-pattern-desktop.svg" ></div>
+    </div>
+
+    <div id="box" class="hide-for-mobile"><img src="images/illustration-box-desktop.svg" ></div>
+    
+    <div class="mobile-showcase hide-for-desktop">
+      <img id="image_mobile" src="images/illustration-woman-online-mobile.svg" >
+      <img id="shadow_mobile" src="images/bg-pattern-mobile.svg" >
+    </div>
+
+    <div class="faq">
+      <p>FAQ</p>
+      <div id="qna">
+
+      <div class="qna_container" id="faq_1">
+          <input type="checkbox" name="frequent_asked_question" id="faq1" class="faq_input">
+          <label for="faq1" class="faq_label">
+          How many team members can I invite?</label>
+        <div class="ans">
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+        </div>
+      </div>
+
+      <div class="qna_container" id="faq_2">
+        <input type="checkbox" name="frequent_asked_question" id="faq2" class="faq_input">
+          <label for="faq2" class="faq_label">
+          What is the maximum file upload size?</label>
+        <div class="ans">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </div>
+      </div>
+
+      <div class="qna_container" id="faq_3">
+        <input type="checkbox" name="frequent_asked_question" id="faq3" class="faq_input">
+          <label for="faq3" class="faq_label">
+          How do I reset my password?</label>
+        <div class="ans">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </div>
+      </div>
+
+      <div class="qna_container" id="faq_4">
+        <input type="checkbox" name="frequent_asked_question" id="faq4" class="faq_input">
+          <label for="faq4" class="faq_label">
+          Can I cancel my subscription?</label>
+        <div class="ans">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </div>
+      </div>
+
+      <div class="qna_container" id="faq_5">
+        <input type="checkbox" name="frequent_asked_question" id="faq5" class="faq_input">
+          <label for="faq5" class="faq_label">
+          Do you provide additional support?</label>
+        <div class="ans">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </div>
+      </div>
+    </div>
+    </div><!--faq-->
+
+  </section><!--container-->
+</body>
+</html>

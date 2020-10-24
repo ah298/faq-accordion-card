@@ -1,0 +1,1 @@
+This is FAQ accordion card project using html and css only

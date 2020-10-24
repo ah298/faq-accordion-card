@@ -1,0 +1,29 @@
+//primary color
+$darkblue:hsl(238, 29%, 16%);
+$softred:hsl(14, 88%, 65%) ;
+
+//background color
+$bgviolet:hsl(273, 75%, 66%);
+$bgblue:hsl(240, 73%, 65%);
+
+//text color
+$darkgrayish: hsl(237, 12%, 33%);
+$grayish: hsl(240, 6%, 50%);
+
+//Dividers
+$lightgrayish: hsl(240, 5%, 91%);
+
+//font weight
+$regular: 400;
+$bold: 700;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.hide-for-desktop{
+    display: none;
+}

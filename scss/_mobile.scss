@@ -45,14 +45,16 @@
         #image_mobile{
             position: absolute;
             top: -22%;
-            left: 10%;
+            left: 50%;
             z-index: 2;
+            transform: translateX(-55%);
         }
 
         #shadow_mobile{
+            transform: translateX(-50%);
             position: absolute;
-            top:0;
-            left: 17%;
+            top: 0;
+            left: 50%;
             z-index: 1;
         }
     }

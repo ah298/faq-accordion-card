@@ -108,8 +108,8 @@ p {
 
 #box {
   position: absolute;
-  top: 39.5%;
-  left: -120px;
+  top: 43.5%;
+  left: -95px;
   z-index: 3;
 }
 
@@ -151,13 +151,15 @@ p {
   .mobile-showcase #image_mobile {
     position: absolute;
     top: -22%;
-    left: 10%;
+    left: 50%;
     z-index: 2;
+    transform: translateX(-55%);
   }
   .mobile-showcase #shadow_mobile {
+    transform: translateX(-50%);
     position: absolute;
     top: 0;
-    left: 17%;
+    left: 50%;
     z-index: 1;
   }
 }
